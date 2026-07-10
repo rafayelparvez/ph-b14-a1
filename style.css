@@ -47,7 +47,7 @@ nav ul li a {
   text-decoration: none;
 }
 
-.nav-btn {
+.btn {
   padding: 14px 45px;
   background-color: #1D4ED8;
   font-weight: 700;
@@ -98,7 +98,7 @@ nav ul li a {
 
 /* speakers section */
 
-.s-contairner, .pricing-container {
+.s-contairner, .pricing-container, .cta {
   padding: 80px 0;
   display: flex;
   flex-direction: column;
@@ -239,6 +239,35 @@ nav ul li a {
   border: 1px solid #0D1B2A;
   color: #0D1B2A;
 }
+
+/* cta section css */
+
+.cta-container {
+  margin: 0 auto;
+  padding: 50px;
+  width: 70%;
+  background-color: #0D1B2A;
+  border-radius: 15px;
+}
+
+.cta-container .title-container h2, .cta-container .title-container p {
+  color: #fff;
+}
+
+.cta-btn-container {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.cta-btn-2 {
+  background: transparent;
+  border: 1px solid #ffffff;
+  color: #FFFFFF;
+}
+
 
 /* footer section css  */
 
