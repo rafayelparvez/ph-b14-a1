@@ -1,12 +1,12 @@
 /* google font link */
-@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 /* common css start */
 
 * {
   margin: 0;
   padding: 0;
-  font-family: "Comic Neue", cursive;
+  font-family: "Open Sans", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
@@ -54,4 +54,186 @@ nav ul li a {
   color: #fff;
   border: none;
   border-radius: 10px;
+}
+
+/* hero css  */
+
+#hero {
+  background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url(./assets/banner.jpg) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.hero-container {
+  height: 90vh;
+  padding: 100px 0 70px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  /* gap: 250px; */
+}
+
+.hero-content-container h1 {
+    font-size: 60px;
+    font-weight: 800;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.hero-content-container h1 span {
+    font-size: 60px;
+    font-weight: 800;
+    color: #fff;
+    font-style: italic;
+}
+ 
+.hero-content-container p {
+  width: 50%;
+  color: #fff;
+  margin: 0 auto;
+}
+
+/* speakers section */
+
+.s-contairner, .pricing-container {
+  padding: 80px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-container {
+  text-align: center;
+}
+
+.title-container h2 {
+    font-size: 45px;
+    font-weight: 800;
+    color: #000102;
+}
+
+.items-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 35px;
+  margin-top: 50px;
+}
+
+.subtitle {
+  font-size: 14px;
+  font-weight: 600;
+  color: #2563EB;
+}
+
+.speakers {
+  border: 1px solid #E5E7EB;
+  border-radius: 12px;
+}
+
+.speakers img {
+  width: 100%;
+  border-radius: 12px 12px 0 0;
+}
+
+.speakers-content {
+  padding: 25px;
+}
+
+.speakers h3 {
+  margin: 10px 0;
+  font-size: 20px;
+  font-weight: 700;
+  color: #0D1B2A;  
+}
+
+/* pricing section css  */
+
+.title-container p {
+  padding-top: 10px;
+}
+
+.pricing-item-container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  gap: 25px;
+}
+
+.pricing-item {
+  width: 340px;
+  padding: 30px;
+  border: 1px solid #E5E7EB;
+  border-radius: 12px; 
+}
+
+.pricing-item ul {
+    list-style-position: inside;
+}
+
+.pricing-item h3 {
+  margin-top: 8px;
+  font-size: 45px;
+  font-weight: 700;
+  color: #0D1B2A;
+}
+
+.pricing-item-divider {
+  margin: 20px 0;
+  height: 1px;
+  color: #E5E7EB;
+}
+
+.pricing-item li::marker {
+  color: #2563EB;
+}
+
+.pricing-item button {
+  width: 100%;
+  margin-top: 20px;
+  padding: 8px 0;
+  background-color: #fff;
+  border: 1px solid #2563EB;
+  border-radius: 8px;
+  color: #2563EB;
+}
+
+.p-item-1 .subtitle, .p-item-3 .subtitle {
+  color: #888888;
+}
+
+.p-item-2 {
+  background-color: #0D1B2A;
+}
+.p-item-2 .subtitle {
+  color: #93C5FD;
+}
+
+.p-item-2 h3 {
+  color: #fff;
+}
+
+.p-item-2 p, .p-item-2 ul li  {
+  color: #FFFFFF80;
+}
+
+.p-item-2 button {
+  border: none;
+  background-color: #2563EB;
+  color: #fff;
+}
+
+.p-item-3 {
+  background-color: #F8F9FB;
+}
+
+.p-item-3 button {
+  background: transparent;
+  border: 1px solid #0D1B2A;
+  color: #0D1B2A;
 }
