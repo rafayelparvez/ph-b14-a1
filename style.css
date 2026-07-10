@@ -54,8 +54,12 @@ nav ul li a {
   color: #fff;
   border: none;
   border-radius: 10px;
+  transition: .3s;
 }
 
+.btn:hover {
+  background-color: #0636ba;   
+}
 /* hero css  */
 
 #hero {
@@ -266,6 +270,11 @@ nav ul li a {
   background: transparent;
   border: 1px solid #ffffff;
   color: #FFFFFF;
+}
+
+.cta-btn-2:hover {
+  border: 1px solid #FFFFFF80;
+  background-color: #FFFFFF20;  
 }
 
 
