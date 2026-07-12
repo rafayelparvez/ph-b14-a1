@@ -55,6 +55,7 @@ nav ul li a {
   border: none;
   border-radius: 10px;
   transition: .3s;
+  cursor: pointer;
 }
 
 .btn:hover {
@@ -207,6 +208,7 @@ nav ul li a {
   border-radius: 8px;
   font-weight: 600;
   color: #2563EB;
+  cursor: pointer;
 }
 
 .p-item-1 .subtitle, .p-item-3 .subtitle {
